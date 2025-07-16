@@ -1,2 +1,80 @@
-<!-- your html code here -->
-<p>Hello, I'm contact.html</p>
+<form class="p-4">
+    <div class="container-fluid">
+        <div class="row mb-4">
+        <!-- Origen -->
+            <div class="col-md-3">
+                <label for="origen" class="form-label">Origen</label>
+            <input class="form-control" id="origen" type="text" placeholder="Ciudad de origen">
+            </div>
+
+        <!-- Flecha -->
+            <div class="col-md-1 d-flex align-items-end justify-content-center">
+                <i class="fa-solid fa-arrow-right fa-2x"></i>
+            </div>
+
+        <!-- Destino -->
+            <div class="col-md-3">
+                <label for="destino" class="form-label">Destino</label>
+                <input class="form-control" id="destino" type="text" placeholder="Ciudad de destino">
+            </div>
+        </div>
+
+        <div class="row mb-4">
+            <!-- Fecha ida -->
+            <div class="col-md-3">
+                <label for="fechaIda" class="form-label">Fecha ida</label>
+                <input class="form-control" id="fechaIda" type="date">
+            </div>
+
+            <!-- Flecha -->
+            <div class="col-md-1 d-flex align-items-end justify-content-center">
+                <i class="fa-solid fa-arrow-right fa-2x"></i>
+            </div>
+
+            <!-- Fecha vuelta -->
+            <div class="col-md-3">
+                <label for="fechaVuelta" class="form-label">Fecha vuelta</label>
+                <input class="form-control" id="fechaVuelta" type="date">
+            </div>
+        </div>
+
+        <div class="row mb-4">
+            <!-- Textarea info -->
+            <div class="col-md-8">
+                <label for="informacion" class="form-label">
+                Denos información si desea que un experto le asesore sobre el viaje de sus sueños de manera totalmente gratuita. Le contactaremos por el correo electrónico que nos facilite.
+                </label>
+                <textarea class="form-control" id="informacion" rows="4" placeholder="Escriba..."></textarea>
+            </div>
+        </div>
+
+        
+        <div class="row mb-4">
+            <h5>Información personal para contacto</h5>
+
+            <div class="col-md-3">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input class="form-control" id="nombre" type="text" placeholder="Nombre">
+            </div>
+
+            <div class="col-md-3">
+                <label for="apellidos" class="form-label">Apellidos</label>
+                <input class="form-control" id="apellidos" type="text" placeholder="Apellidos">
+            </div>
+
+            <div class="col-md-4">
+                <label for="correo" class="form-label">Dirección de correo</label>
+                <input class="form-control" id="correo" type="email" placeholder="email@ejemplo.com">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <button class="btn btn-primary" type="submit">Enviar</button>
+                <button class="ms-2 btn btn-secondary" type="reset">Cancelar</button>
+            </div>
+        </div>
+        
+        
+    </div>
+</form>
